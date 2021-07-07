@@ -1,0 +1,74 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "menu-item#carta",
+        "menu-item#promociones",
+        "menu-item#locales",
+        "menu-item#contactenos"
+      ]
+    },
+    "menu-item#carta": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Carta",
+          "text": "Carta"
+        }
+      }
+    },
+    "menu-item#promociones": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Promociones",
+          "text": "Promociones"
+        }
+      }
+    },
+    "menu-item#locales": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Locales",
+          "text": "Locales"
+        }
+      }
+    },
+    "menu-item#contactenos": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Contactenos",
+          "text": "Contactenos"
+        }
+      }
+    }
+  }
+  

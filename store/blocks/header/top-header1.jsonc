@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#header-1-desktop": {
+        "props": {
+          "blockClass": "menu-link",
+          "horizontalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "vtex.menu@2.x:menu#atencionalcliente",
+          "flex-layout.col#espacio",
+          "vtex.menu@2.x:menu#horario"
+        ]
+      },
+      "vtex.menu@2.x:menu#atencionalcliente": {
+        "children": [
+          "menu-item#atencionalcliente"
+        ]
+      },
+      "menu-item#atencionalcliente": {
+        "props": {
+          "id": "menu-item-atencionalcliente",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Shop",
+            "text": "Atención al Cliente Web: 989034202 y Whatsapp: 989034202"
+          }
+        }
+      },
+      "flex-layout.col#espacio": {
+        "props": {
+          "width": "grow"
+        }
+      },
+      "vtex.menu@2.x:menu#horario": {
+        "children": [
+          "menu-item#horario"
+        ]
+      },
+      "menu-item#horario": {
+        "props": {
+          "id": "menu-item-horario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "About us",
+            "text": "Horario de atención: Viernes de 9:00am a 6:00pm y Sábados de 8:00am a 1:45pm"
+          }
+        }
+      }
+
+}
