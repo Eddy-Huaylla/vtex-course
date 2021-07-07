@@ -17,7 +17,7 @@
       "text": "Footer Desktop",
       "blockClass": "footer"
     }
-  },  
+  },
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer-1-mobile"

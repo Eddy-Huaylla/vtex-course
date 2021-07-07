@@ -9,7 +9,7 @@
         },
         "children": [
           "flex-layout.col#logo-desktop",
-          "flex-layout.col#espacio",      
+          "flex-layout.col#espacio",
           "flex-layout.col#category-menu",
           "flex-layout.col#espacio"
         ]
@@ -34,5 +34,5 @@
         },
         "children": ["vtex.menu@2.x:menu#category-menu"]
       }
-       
+
 }
