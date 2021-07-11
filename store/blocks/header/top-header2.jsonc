@@ -1,11 +1,12 @@
 {
 	"flex-layout.row#header-2-desktop": {
 		"props": {
-		"horizontalAlign": "center",
-		"verticalAlign": "center",
-		"preventHorizontalStretch": true,
-		"preventVerticalStretch": true,
-		"fullWidth": true
+			"blockClass" : "main-header",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
 		},
 		"children": [
 		"flex-layout.col#logo-desktop",

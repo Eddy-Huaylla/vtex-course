@@ -1,0 +1,23 @@
+.flexRowContent--menu-link {
+	background-color: lightgray;
+	color: white;
+	line-height: 0;
+	font-family: 'Segoe UI', 'Tahoma', Geneva, Verdana, sans-serif;
+	font-size: 1.5rem;
+}
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+	color: black;
+	font-size: 12px;
+	font-family: 'Segoe UI', 'Tahoma', Geneva, Verdana, sans-serif;
+}
+
+.flexRowContent--main-header {
+	background-color: red;
+}
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Arial Narrow Bold', sans-serif;
+	text-transform: uppercase;
+}
