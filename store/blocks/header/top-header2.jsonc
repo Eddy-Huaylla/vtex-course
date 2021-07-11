@@ -1,38 +1,62 @@
 {
-    "flex-layout.row#header-2-desktop": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true
-        },
-        "children": [
-          "flex-layout.col#logo-desktop",
-          "flex-layout.col#espacio",
-          "flex-layout.col#category-menu",
-          "flex-layout.col#espacio"
-        ]
-      },
-      "flex-layout.col#logo-desktop": {
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": ["logo#desktop"]
-      },
-      "logo#desktop": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/logo_restaurant.gif",
-          "width": "320"
-        }
-      },
-      "flex-layout.col#category-menu": {
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": ["vtex.menu@2.x:menu#category-menu"]
-      }
+	"flex-layout.row#header-2-desktop": {
+		"props": {
+		"horizontalAlign": "center",
+		"verticalAlign": "center",
+		"preventHorizontalStretch": true,
+		"preventVerticalStretch": true,
+		"fullWidth": true
+		},
+		"children": [
+		"flex-layout.col#logo-desktop",
+		"flex-layout.col#espacio",
+		"flex-layout.col#category-menu",
+		"flex-layout.col#espacio",
+		"search-bar",
+		"login#desktop",
+		"minicart"
+		]
+	},
+	"flex-layout.col#logo-desktop": {
+		"props": {
+		"verticalAlign": "middle"
+		},
+		"children": ["logo#desktop"]
+	},
+	"logo#desktop": {
+		"props": {
+		"title": "Logo",
+		"href": "/",
+		"url": "assets/logo_restaurant.gif",
+		"width": "320"
+		}
+	},
+	"flex-layout.col#category-menu": {
+		"props": {
+		"verticalAlign": "middle"
+		},
+		"children": ["vtex.menu@2.x:menu#category-menu"]
+	},
 
+	"login#desktop" : {
+		"props" : {
+		"showIconProfile" : true,
+		"hideIconLabel" : true
+		}
+	},
+	"minicart" : {
+		"blocks" : [
+		"product-summary"
+		],
+		"props" : {
+		"type" : "sidebar",
+		"showRemoveButton" : true,
+		"showDiscount" : true,
+		"showSku" : true,
+		"labelMiniCartEmpty" : "",
+		"labelButtonFinishShopping" : "Go to checkout",
+		"enableQuantitySelector" : true,
+		"maxQuantity" : 10
+		}
+	}
 }
