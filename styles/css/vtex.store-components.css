@@ -5,3 +5,8 @@
 	padding-top: 7px;
 	padding-bottom: 7px;
 }
+
+.imageElement--paymet-img,
+.imageElement--redes-img{
+	width: calc((2vh + 2vw) / 2);
+}

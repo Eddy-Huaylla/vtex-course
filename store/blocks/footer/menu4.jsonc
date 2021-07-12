@@ -1,0 +1,120 @@
+{
+	"flex-layout.col#footer-col-4-desktop" : {
+		"props" : {
+			"blockClass" : "footer-logo-mobile",
+			"preventVerticalStretch" : true
+		},
+		"children" : [
+			"flex-layout.row#texto-tarjeta",
+			"flex-layout.row#tarjetas",
+			"flex-layout.row#texto-redes",
+			"flex-layout.row#redes"
+		]
+	},
+	/* ======================================== */
+	"flex-layout.row#texto-tarjeta" : {
+		"props" : {
+			"preventHorizontalStretch" : true,
+			"preventVerticalStretch" : true,
+			"fullWidth" : true
+		},
+		"children" : [
+			"rich-text#texto-tarjeta"
+		]
+	},
+	"rich-text#texto-tarjeta" : {
+		"props" : {
+			"text" : "Aceptamos",
+			"blockClass" : "footer"
+		}
+	},
+	/* ======================================== */
+	"flex-layout.row#tarjetas" : {
+		"props" : {
+			"preventHorizontalStretch" : true,
+			"preventVerticalStretch" : true,
+			"preserveLayoutOnMobile" : true,
+			"fullWidth" : true
+		},
+		"children" : [
+			"image#master",
+			"image#visa",
+			"image#amex"
+		]
+	},
+	"image#master" : {
+		"props" : {
+			"src" : "assets/footer-img/tarjeta-master.svg",
+			"blockClass" : "paymet-img"
+		}
+	},
+	"image#visa" : {
+		"props" : {
+			"src" : "assets/footer-img/tarjeta-visa.svg",
+			"blockClass" : "paymet-img"
+		}
+	},
+	"image#amex" : {
+		"props" : {
+			"src" : "assets/footer-img/tarjeta-amex.svg",
+			"blockClass" : "paymet-img"
+		}
+	},
+	/* ======================================== */
+	"flex-layout.row#texto-redes" : {
+		"props" : {
+			"preventHorizontalStretch" : true,
+			"preventVerticalStretch" : true,
+			"fullWidth" : true
+		},
+		"children" : [
+			"rich-text#texto-redes"
+		]
+	},
+	"rich-text#texto-redes" : {
+		"props" : {
+			"text" : "Siganos en:",
+			"blockClass" : "footer"
+		}
+	},
+	/* ======================================== */
+	"flex-layout.row#redes" : {
+		"props" : {
+			"preventHorizontalStretch" : true,
+			"preventVerticalStretch" : true,
+			"preserveLayoutOnMobile" : true,
+			"fullWidth" : true
+		},
+		"children" : [
+			"image#facebook",
+			"image#instagram",
+			"image#linkedin",
+			"image#twitter"
+		]
+	},
+	"image#facebook" : {
+		"props" : {
+			"src" : "assets/footer-img/social-icon-facebook.svg",
+			"blockClass" : "redes-img"
+		}
+	},
+	"image#instagram" : {
+		"props" : {
+			"src" : "assets/footer-img/social-icon-instagram.svg",
+			"blockClass" : "redes-img"
+		}
+	},
+	"image#linkedin" : {
+		"props" : {
+			"src" : "assets/footer-img/social-icon-linkedin.svg",
+			"blockClass" : "redes-img"
+		}
+	},
+	"image#twitter" : {
+		"props" : {
+			"src" : "assets/footer-img/social-icon-twitter.svg",
+			"blockClass" : "redes-img"
+		}
+	}
+
+}

@@ -12,7 +12,7 @@
 	/* ========================================== */
 	"menu-item#nosotros" : {
 		"props" : {
-			"blockClass" : "menu-footer",
+			"blockClass" : "menu-header",
 			"id" : "menu-item-nosotros",
 			"type" : "custom",
 			"iconId" : null,

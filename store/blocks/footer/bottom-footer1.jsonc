@@ -3,8 +3,8 @@
 		"children" : [
 			"vtex.menu@2.x:menu#footer-col-1-desktop", /* menu1.jsonc */
 			"vtex.menu@2.x:menu#footer-col-2-desktop",
-			"vtex.menu@2.x:menu#footer-col-3-desktop"
-			/* "flex-layout.col#footer-col-4-desktop" */
+			"vtex.menu@2.x:menu#footer-col-3-desktop",
+			"flex-layout.col#footer-col-4-desktop"
 		],
 		"props" : {
 			"blockClass" : "menu-row",
