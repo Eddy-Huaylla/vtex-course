@@ -24,7 +24,9 @@
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.minicart": "2.x",
-    "vtex.product-summary": "2.x"
+    "vtex.product-summary": "2.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.store-image": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

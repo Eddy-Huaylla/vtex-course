@@ -1,14 +1,8 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  }
+  "store.home" : {
+		"blocks" : [
+			"list-context.image-list#slider-principal" /* slider-principal.jsonc */
+			/* "flex-layout.row#row-categorii-produse" */
+		]
+	}
 }
