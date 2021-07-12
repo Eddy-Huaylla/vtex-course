@@ -1,0 +1,77 @@
+{
+	"flex-layout.row#footer-2-desktop" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"horizontalAlign" : "center",
+			"preventHorizontalStretch" : true,
+			"preventVesticalStretch" : true,
+			"fullWidth" : true
+		},
+		"children" : [
+			"vtex.menu@2.x:menu#empresa",
+			"flex-layout.col#espacio2",
+			"vtex.menu@2.x:menu#empowerby",
+			"vtex.menu@2.x:menu#logovtex"
+		]
+	},
+	/* =========================================== */
+	"vtex.menu@2.x:menu#empresa" : {
+		"children" : [
+			"menu-item#empresa"
+		]
+	},
+	"menu-item#empresa" : {
+		"props" : {
+			"id" : "menu-item-empresa",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "#",
+				"noFollow" : false,
+				"tagTitle" : "Empresa",
+				"text" : "© LOS POLLOS HERMANOS 2021. Todos los derechos reservados."
+			}
+		}
+	},
+	/* =========================================== */
+	"flex-layout.col#espacio2" : {
+		"props" : {
+			"width" : "grow"
+		}
+	},
+	/* =========================================== */
+	"vtex.menu@2.x:menu#empowerby" : {
+		"children" : [
+			"menu-item#about-empowerby"
+		]
+	},
+	"menu-item#about-empowerby" : {
+		"props" : {
+			"id" : "menu-item-about-empowerby",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/abount-us",
+				"noFollow" : true,
+				"tagTitle" : "About us",
+				"text" : "Empowered by"
+			}
+		}
+	},
+	/* =========================================== */
+	"vtex.menu@2.x:menu#logovtex" : {
+		"children" : [
+			"image#logovtex"
+		]
+	},
+	"image#logovtex" : {
+		"props" : {
+			"src" : "assets/footer-img/vtex.svg",
+			"blockClass" : "vtex-img"
+		}
+	}
+}
