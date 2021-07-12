@@ -1,0 +1,63 @@
+{
+	"vtex.menu@2.x:menu#footer-col-3-desktop" : {
+		"props" : {
+			"orientation" : "vertical"
+		},
+		"children" : [
+			"menu-item#atencion-cliente",
+			"menu-item#politicas",
+			"menu-item#libro-reclamaciones"
+		]
+	},
+	/* ========================================== */
+	"menu-item#atencion-cliente" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-atencion-cliente",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/atencion-cliente",
+				"noFollow" : false,
+				"tagTitle" : "ATENCIÓN AL CLIENTE",
+				"text" : "ATENCIÓN AL CLIENTE"
+			}
+		}
+	},
+	/* ========================================== */
+	"menu-item#politicas" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-politicas",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/politicas",
+				"noFollow" : false,
+				"tagTitle" : "Políticas",
+				"text" : "Políticas"
+			}
+		}
+	},
+	/* ========================================== */
+	"menu-item#libro-reclamaciones" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-libro-reclamaciones",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/libro-de-reclamaciones",
+				"noFollow" : false,
+				"tagTitle" : "Libro de Reclamaciones",
+				"text" : "Libro de Reclamaciones"
+			}
+		}
+	}
+}

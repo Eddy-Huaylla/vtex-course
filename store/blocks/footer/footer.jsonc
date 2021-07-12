@@ -4,17 +4,18 @@
 	},
 	"footer-layout.desktop": {
 		"children": [
-		"flex-layout.row#footer-2-desktop" /* bottom-footer2-jsonc */
+			"flex-layout.row#fotter-1-desktop", /* bottom-footer1-jsonc */
+			"flex-layout.row#footer-2-desktop" /* bottom-footer2-jsonc */
 		]
 	},
 	"footer-layout.mobile": {
 		"children": [
-		"flex-layout.row#footer-1-mobile"
+			"flex-layout.row#footer-1-mobile"
 		]
 	},
 	"flex-layout.row#footer-1-mobile": {
 		"children": [
-		"rich-text#footer-mobile"
+			"rich-text#footer-mobile"
 		]
 	},
 	"rich-text#footer-mobile": {

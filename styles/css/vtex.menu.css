@@ -5,3 +5,12 @@
 	font-weight: bold;
 	cursor: default;
 }
+
+.styledLinkContent--menu-footer {
+	font-size: 14px;
+	color: #fff;
+	opacity: 0.8;
+	padding: 4px 0;
+	font-weight: normal;
+	white-space: inherit;
+}

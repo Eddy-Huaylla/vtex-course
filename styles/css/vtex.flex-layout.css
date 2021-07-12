@@ -23,6 +23,11 @@
 }
 
 /* ========================= footer ================================= */
+.flexRow--menu-row {
+	background-color: red;
+	padding-top: 38px;
+	padding-bottom: 42px;
+}
 .flexRowContent--menu-footer {
 	background-color: lightgray;
 	color: white;

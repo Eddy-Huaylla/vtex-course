@@ -1,0 +1,63 @@
+{
+	"vtex.menu@2.x:menu#footer-col-1-desktop" : {
+		"props" : {
+			"orientation" : "vertical"
+		},
+		"children" : [
+			"menu-item#nuestros-servicios",
+			"menu-item#reservas",
+			"menu-item#ventas-corporativas"
+		]
+	},
+	/* ========================================== */
+	"menu-item#nuestros-servicios" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-nuestros-servicios",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "",
+				"noFollow" : false,
+				"tagTitle" : "NUESTROS SERVICIOS",
+				"text" : "NUESTROS SERVICIOS"
+			}
+		}
+	},
+	/* ========================================== */
+	"menu-item#reservas" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-reservas",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/reservas",
+				"noFollow" : false,
+				"tagTitle" : "Reservas",
+				"text" : "Reservas"
+			}
+		}
+	},
+	/* ========================================== */
+	"menu-item#ventas-corporativas" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-ventas-corporativas",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/ventas-corporativas",
+				"noFollow" : false,
+				"tagTitle" : "Ventas Corporativas",
+				"text" : "Ventas Corporativas"
+			}
+		}
+	}
+}

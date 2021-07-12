@@ -1,0 +1,63 @@
+{
+	"vtex.menu@2.x:menu#footer-col-2-desktop" : {
+		"props" : {
+			"orientation" : "vertical"
+		},
+		"children" : [
+			"menu-item#nosotros",
+			"menu-item#protocolo",
+			"menu-item#trabaje-nosotros"
+		]
+	},
+	/* ========================================== */
+	"menu-item#nosotros" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-nosotros",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/nosotros",
+				"noFollow" : false,
+				"tagTitle" : "NOSOTROS",
+				"text" : "NOSOTROS"
+			}
+		}
+	},
+	/* ========================================== */
+	"menu-item#protocolo" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-protocolo",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/protocolo",
+				"noFollow" : false,
+				"tagTitle" : "Protocolo de Bioseguridad",
+				"text" : "Protocolo de Bioseguridad"
+			}
+		}
+	},
+	/* ========================================== */
+	"menu-item#trabaje-nosotros" : {
+		"props" : {
+			"blockClass" : "menu-footer",
+			"id" : "menu-item-trabaje-nosotros",
+			"type" : "custom",
+			"iconId" : null,
+			"highlight" : false,
+			"itemProps" : {
+				"type" : "internal",
+				"href" : "/trabaje-con-nosotros",
+				"noFollow" : false,
+				"tagTitle" : "Trabaje con Nosotros",
+				"text" : "Trabaje con Nosotros"
+			}
+		}
+	}
+}
