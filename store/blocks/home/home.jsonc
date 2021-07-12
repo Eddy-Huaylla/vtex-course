@@ -1,8 +1,8 @@
 {
   "store.home" : {
 		"blocks" : [
-			"list-context.image-list#slider-principal" /* slider-principal.jsonc */
-			/* "flex-layout.row#row-categorii-produse" */
+			"list-context.image-list#slider-principal", /* slider-principal.jsonc */
+			"flex-layout.row#row-slider-categorias" /* slider-categoria.jsonc */
 		]
 	}
 }

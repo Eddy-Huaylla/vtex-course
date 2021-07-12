@@ -6,3 +6,17 @@
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
+.container--title-categoria-nuestra-carta {
+	color: red;
+	text-align: center;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: 700px;
+	max-width: 60%;
+}
+
+.paragraph--title-item-categoria, .link--title-item-categoria {
+	color: #2f3732;
+	text-decoration: none;
+}

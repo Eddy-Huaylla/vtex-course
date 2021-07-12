@@ -1,0 +1,319 @@
+{
+	"flex-layout.col#carta-categoria-1" : {
+		"children" : [
+			"image#img-categoria1",
+			"rich-text#title-carta-categoria1"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria1" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie1-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria1" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-2" : {
+		"children" : [
+			"image#img-categoria2",
+			"rich-text#title-carta-categoria2"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria2" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie2-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria2" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-3" : {
+		"children" : [
+			"image#img-categoria3",
+			"rich-text#title-carta-categoria3"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria3" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie3-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria3" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-4" : {
+		"children" : [
+			"image#img-categoria4",
+			"rich-text#title-carta-categoria4"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria4" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie4-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria4" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-5" : {
+		"children" : [
+			"image#img-categoria5",
+			"rich-text#title-carta-categoria5"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria5" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie5-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria5" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-6" : {
+		"children" : [
+			"image#img-categoria6",
+			"rich-text#title-carta-categoria6"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria6" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie6-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria6" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-7" : {
+		"children" : [
+			"image#img-categoria7",
+			"rich-text#title-carta-categoria7"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria7" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie7-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria7" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-8" : {
+		"children" : [
+			"image#img-categoria8",
+			"rich-text#title-carta-categoria8"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria8" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie8-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria8" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-9" : {
+		"children" : [
+			"image#img-categoria9",
+			"rich-text#title-carta-categoria9"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria9" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie9-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria9" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	},
+
+
+	/* ****************************************************** */
+	"flex-layout.col#carta-categoria-10" : {
+		"children" : [
+			"image#img-categoria10",
+			"rich-text#title-carta-categoria10"
+		],
+		"props" : {
+			"blockClass" : "colCategoriiProduse",
+			"horizontalAlign" : "center",
+			"preventVerticalStretch" : true
+		}
+	},
+	/* =================================== */
+	"image#img-categoria10" : {
+		"props" : {
+			"src" : "assets/categorie-img/categorie10-desktop.jpg",
+			"link" : {
+				"url" : "/produse-alimentare/alimente-de-baza"
+			}
+		}
+	},
+	/* =================================== */
+	"rich-text#title-carta-categoria10" : {
+		"props" : {
+			"text" : "[A LA BRASA](/produse-alimentare/alimente-de-baza)",
+			"textPosition" : "CENTER",
+			"textAlignment" : "CENTER",
+			"blockClass" : "title-item-categoria"
+		}
+	}
+}

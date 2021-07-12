@@ -1,0 +1,61 @@
+{
+	"flex-layout.row#row-slider-categorias" : {
+		"children" : [
+			"flex-layout.col#row-nuestra-carta"
+		],
+		"props" : {
+			"blockClass" : [
+				"global-padding",
+				"row-nuestra-carta"
+			]
+		},
+		"title" : "Rand Nuestra Carta"
+	},
+	/* ============================================ */
+	"flex-layout.col#row-nuestra-carta" : {
+		"children" : [
+			"rich-text#title-nuestra-carta",
+			"slider-layout#nuestra-carta-categoria"
+		]
+	},
+	/* ------------------------------------ */
+	"rich-text#title-nuestra-carta" : {
+		"props" : {
+			"text" : "### Nuestra Carta",
+			"blockClass" : "title-categoria-nuestra-carta",
+			"textAlignment" : "CENTER",
+			"textPosition" : "CENTER"
+		}
+	},
+	/* ------------------------------------- */
+	"slider-layout#nuestra-carta-categoria" : {
+		"children" : [
+			/* slider-categoria-deta.jsonc */
+			"flex-layout.col#carta-categoria-1",
+			"flex-layout.col#carta-categoria-2",
+			"flex-layout.col#carta-categoria-3",
+			"flex-layout.col#carta-categoria-4",
+			"flex-layout.col#carta-categoria-5",
+			"flex-layout.col#carta-categoria-6",
+			"flex-layout.col#carta-categoria-7",
+			"flex-layout.col#carta-categoria-8",
+			"flex-layout.col#carta-categoria-9",
+			"flex-layout.col#carta-categoria-10"
+		],
+		"props" : {
+			"itemPerPage" : {
+				"desktop" : 6,
+				"table" : 3,
+				"phone" : 2
+			},
+			"showNavigationArrows" : "desktopOnly",
+			"showPaginationDots" : "always",
+			"infinite" : true,
+			"navigationStep" : "page",
+			"blockClass" : [
+				"slider-nuestra-carta-categoria",
+				"slider-categoria"
+			]
+		}
+	}
+}
